@@ -1,1 +1,43 @@
+name: AI Tech Uz AutoPost
+
+on:
+  schedule:
+    # Har kuni soat 04:00 UTC = 09:00 Toshkent vaqti (UTC+5)
+    # Vaqtni o'zgartirmoqchi bo'lsangiz, shu qatorni tuzating
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}  # "Actions" bo'limidan qo'lda ham ishga tushirish imkonini beradi
+
+permissions:
+  contents: write  # posted_story_ids.txt faylini repo'ga qaytarib yozish uchun kerak
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'ni yuklab olish
+        uses: actions/checkout@v4
+
+      - name: Python o'rnatish
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kutubxonalarni o'rnatish
+        run: pip install -r requirements.txt
+
+      - name: Botni ishga tushirish
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: python auto_post_bot.py
+
+      - name: Joylangan yangiliklar ro'yxatini saqlab qolish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posted_story_ids.txt
+          git diff --quiet --cached || git commit -m "Update posted story log [skip ci]"
+          git push
 
