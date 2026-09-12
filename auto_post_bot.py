@@ -340,13 +340,21 @@ def send_to_telegram(text: str, image_url: str | None, video_url: str | None = N
         )
 
 
+CHANNEL_LINK = "https://t.me/AITechUz"
+CHANNEL_FOOTER = f'\n\n\n📲 <a href="{CHANNEL_LINK}">TechUz</a>'
+
+
+def add_footer(post_text: str) -> str:
+    return post_text + CHANNEL_FOOTER
+
+
 def main() -> None:
     news = fetch_real_news()
     print(f"Tanlangan yangilik: {news['title']}")
     print(f"Manba: {news['url']}\n")
 
     data = generate_post(news)
-    post_text = data["post"]
+    post_text = add_footer(data["post"])
     image_query = data.get("image_query", "technology")
 
     print("Generatsiya qilingan post:\n")
