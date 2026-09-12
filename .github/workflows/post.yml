@@ -4,7 +4,7 @@ on:
   schedule:
     # Har kuni soat 04:00 UTC = 09:00 Toshkent vaqti (UTC+5)
     # Vaqtni o'zgartirmoqchi bo'lsangiz, shu qatorni tuzating
-    - cron: "0 4 * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch: {}  # "Actions" bo'limidan qo'lda ham ishga tushirish imkonini beradi
 
 permissions:
