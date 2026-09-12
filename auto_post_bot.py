@@ -353,7 +353,7 @@ def send_to_telegram(text: str, image_url: str | None, video_url: str | None = N
         )
 
 
-CHANNEL_LINK = "https://t.me/AITechUz"
+CHANNEL_LINK = "https://t.me/aitechnewsuz"
 CHANNEL_FOOTER = f'\n\n\n📲 <a href="{CHANNEL_LINK}">TechUz</a>'
 
 
