@@ -36,17 +36,15 @@ def _save_posted_id(story_id: str) -> None:
         f.write(f"{story_id}\n")
 
 
-def fetch_real_news() -> dict:
-    """Hacker News'dan haqiqiy, trenddagi tech/AI/dasturlash yangiligini oladi."""
-    posted_ids = _load_posted_ids()
-
+def _fetch_hackernews_candidates(posted_ids: set[str]) -> list[dict]:
     top_ids = requests.get(
         "https://hacker-news.firebaseio.com/v0/topstories.json", timeout=15
     ).json()
 
     candidates = []
     for story_id in top_ids[:40]:  # eng tepadagi 40 ta yangilikni tekshiramiz
-        if str(story_id) in posted_ids:
+        sid = f"hn-{story_id}"
+        if sid in posted_ids:
             continue
         item = requests.get(
             f"https://hacker-news.firebaseio.com/v0/item/{story_id}.json",
@@ -59,17 +57,64 @@ def fetch_real_news() -> dict:
             continue
         if item.get("score", 0) < 30:
             continue
-        candidates.append(item)
+        candidates.append(
+            {
+                "id": sid,
+                "title": title,
+                "url": item.get("url", f"https://news.ycombinator.com/item?id={story_id}"),
+            }
+        )
+    return candidates
 
-    if not candidates:
+
+def _fetch_techcrunch_candidates(posted_ids: set[str]) -> list[dict]:
+    """TechCrunch RSS'dan umumiy texnologiya/gadjet yangiliklarini oladi (dasturlashdan tashqari mavzular uchun)."""
+    import xml.etree.ElementTree as ET
+
+    try:
+        response = requests.get(
+            "https://techcrunch.com/feed/",
+            timeout=15,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; AITechUzBot/1.0)"},
+        )
+        response.raise_for_status()
+        root = ET.fromstring(response.content)
+    except (requests.RequestException, ET.ParseError):
+        return []
+
+    candidates = []
+    for item in root.findall(".//item"):
+        title_el = item.find("title")
+        link_el = item.find("link")
+        if title_el is None or link_el is None or not title_el.text or not link_el.text:
+            continue
+        title = title_el.text.strip()
+        url = link_el.text.strip()
+        sid = f"tc-{url}"
+        if sid in posted_ids:
+            continue
+        if any(bad in title.lower() for bad in IRRELEVANT_KEYWORDS):
+            continue
+        candidates.append({"id": sid, "title": title, "url": url})
+    return candidates
+
+
+def fetch_real_news() -> dict:
+    """Hacker News (dasturlash-og'ir) va TechCrunch (umumiy tech/gadjet) manbalaridan
+    tasodifiy ravishda haqiqiy, hozirgi yangilikni oladi."""
+    posted_ids = _load_posted_ids()
+
+    hn_candidates = _fetch_hackernews_candidates(posted_ids)
+    tc_candidates = _fetch_techcrunch_candidates(posted_ids)
+
+    # Ikkala manbadan ham eng yangi ~10 tadan olib, birlashtiramiz — shunda
+    # ba'zida dasturlash, ba'zida umumiy texnologiya yangiligi tanlanadi
+    pool = hn_candidates[:10] + tc_candidates[:10]
+
+    if not pool:
         sys.exit("Xato: mos yangilik topilmadi (barchasi oldin joylangan bo'lishi mumkin).")
 
-    chosen = random.choice(candidates[:10])
-    return {
-        "id": str(chosen["id"]),
-        "title": chosen.get("title", ""),
-        "url": chosen.get("url", f"https://news.ycombinator.com/item?id={chosen['id']}"),
-    }
+    return random.choice(pool)
 
 
 PROMPT_TEMPLATE = """Sen "AI Tech Uz" telegram kanali uchun kontent yozuvchisan.
