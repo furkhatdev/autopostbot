@@ -3,6 +3,7 @@ import os
 import random
 import re
 import sys
+import time
 
 import requests
 from dotenv import load_dotenv
@@ -111,10 +112,25 @@ def generate_post(news: dict) -> dict:
         sys.exit("Xato: GEMINI_API_KEY o'rnatilmagan")
     client = genai.Client(api_key=GEMINI_API_KEY)
     prompt = PROMPT_TEMPLATE.format(title=news["title"], url=news["url"])
-    response = client.models.generate_content(
-        model="gemini-3.6-flash",
-        contents=prompt,
-    )
+
+    max_attempts = 4
+    wait_seconds = 15
+    response = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response = client.models.generate_content(
+                model="gemini-3.6-flash",
+                contents=prompt,
+            )
+            break
+        except Exception as exc:  # Gemini vaqtincha band bo'lishi mumkin (503 va h.k.)
+            if attempt == max_attempts:
+                sys.exit(f"Xato: Gemini {max_attempts} urinishdan keyin ham javob bermadi: {exc}")
+            print(f"Ogohlantirish: Gemini xato qaytardi ({exc}), {wait_seconds}s kutib qayta uriniladi "
+                  f"({attempt}/{max_attempts})...")
+            time.sleep(wait_seconds)
+            wait_seconds *= 2  # har safar kutish vaqtini oshiramiz
+
     raw = response.text.strip()
     raw = raw.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
     try:
