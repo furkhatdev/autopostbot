@@ -67,13 +67,14 @@ def _fetch_hackernews_candidates(posted_ids: set[str]) -> list[dict]:
     return candidates
 
 
-def _fetch_techcrunch_candidates(posted_ids: set[str]) -> list[dict]:
-    """TechCrunch RSS'dan umumiy texnologiya/gadjet yangiliklarini oladi (dasturlashdan tashqari mavzular uchun)."""
+def _fetch_rss_candidates(feed_url: str, source_prefix: str, posted_ids: set[str]) -> list[dict]:
+    """Istalgan standart RSS manbadan (TechCrunch, Apple Newsroom, Samsung Newsroom,
+    The Robot Report, SpaceX va h.k.) yangiliklarni oladi."""
     import xml.etree.ElementTree as ET
 
     try:
         response = requests.get(
-            "https://techcrunch.com/feed/",
+            feed_url,
             timeout=15,
             headers={"User-Agent": "Mozilla/5.0 (compatible; AITechUzBot/1.0)"},
         )
@@ -90,7 +91,7 @@ def _fetch_techcrunch_candidates(posted_ids: set[str]) -> list[dict]:
             continue
         title = title_el.text.strip()
         url = link_el.text.strip()
-        sid = f"tc-{url}"
+        sid = f"{source_prefix}-{url}"
         if sid in posted_ids:
             continue
         if any(bad in title.lower() for bad in IRRELEVANT_KEYWORDS):
@@ -99,17 +100,29 @@ def _fetch_techcrunch_candidates(posted_ids: set[str]) -> list[dict]:
     return candidates
 
 
+# Rasmiy va yirik manbalar: (prefiks, RSS havolasi)
+OFFICIAL_RSS_SOURCES = [
+    ("tc", "https://techcrunch.com/feed/"),                       # TechCrunch — umumiy tech/gadjet
+    ("apple", "https://www.apple.com/newsroom/rss-feed.rss"),     # Apple — rasmiy newsroom
+    ("samsung", "https://news.samsung.com/global/feed"),           # Samsung — rasmiy newsroom
+    ("robot", "https://www.therobotreport.com/feed"),              # Robototexnika yangiliklari
+    ("spacex", "https://www.spacex.com/news.xml"),                 # SpaceX (Ilon Musk kompaniyasi)
+    ("openai", "https://openai.com/news/rss.xml"),                 # OpenAI — rasmiy
+    ("deepmind", "https://deepmind.google/blog/feed/basic/"),      # Google DeepMind — rasmiy
+    ("googleai", "https://blog.google/technology/ai/rss/"),        # Google AI Blog — rasmiy
+]
+
+
 def fetch_real_news() -> dict:
-    """Hacker News (dasturlash-og'ir) va TechCrunch (umumiy tech/gadjet) manbalaridan
-    tasodifiy ravishda haqiqiy, hozirgi yangilikni oladi."""
+    """Hacker News va bir nechta rasmiy/yirik manbalardan (TechCrunch, Apple, Samsung,
+    robototexnika, SpaceX) tasodifiy ravishda haqiqiy, hozirgi yangilikni oladi."""
     posted_ids = _load_posted_ids()
 
-    hn_candidates = _fetch_hackernews_candidates(posted_ids)
-    tc_candidates = _fetch_techcrunch_candidates(posted_ids)
+    pool: list[dict] = _fetch_hackernews_candidates(posted_ids)[:10]
 
-    # Ikkala manbadan ham eng yangi ~10 tadan olib, birlashtiramiz — shunda
-    # ba'zida dasturlash, ba'zida umumiy texnologiya yangiligi tanlanadi
-    pool = hn_candidates[:10] + tc_candidates[:10]
+    for prefix, feed_url in OFFICIAL_RSS_SOURCES:
+        candidates = _fetch_rss_candidates(feed_url, prefix, posted_ids)
+        pool += candidates[:5]  # har bir manbadan eng yangi 5 tadan
 
     if not pool:
         sys.exit("Xato: mos yangilik topilmadi (barchasi oldin joylangan bo'lishi mumkin).")
