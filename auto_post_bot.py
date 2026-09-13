@@ -115,14 +115,22 @@ OFFICIAL_RSS_SOURCES = [
 
 def fetch_real_news() -> dict:
     """Hacker News va bir nechta rasmiy/yirik manbalardan (TechCrunch, Apple, Samsung,
-    robototexnika, SpaceX) tasodifiy ravishda haqiqiy, hozirgi yangilikni oladi."""
+    robototexnika, SpaceX, OpenAI, DeepMind, Google AI) tasodifiy ravishda haqiqiy,
+    hozirgi yangilikni oladi."""
     posted_ids = _load_posted_ids()
 
-    pool: list[dict] = _fetch_hackernews_candidates(posted_ids)[:10]
+    pool: list[dict] = []
+
+    hn_candidates = _fetch_hackernews_candidates(posted_ids)[:10]
+    pool += hn_candidates
+    print(f"[manba] Hacker News: {len(hn_candidates)} ta yangilik topildi")
 
     for prefix, feed_url in OFFICIAL_RSS_SOURCES:
-        candidates = _fetch_rss_candidates(feed_url, prefix, posted_ids)
-        pool += candidates[:5]  # har bir manbadan eng yangi 5 tadan
+        candidates = _fetch_rss_candidates(feed_url, prefix, posted_ids)[:5]
+        pool += candidates
+        print(f"[manba] {prefix}: {len(candidates)} ta yangilik topildi (feed: {feed_url})")
+
+    print(f"[manba] Jami tanlov havzasi: {len(pool)} ta yangilik\n")
 
     if not pool:
         sys.exit("Xato: mos yangilik topilmadi (barchasi oldin joylangan bo'lishi mumkin).")
