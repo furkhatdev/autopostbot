@@ -12,3 +12,4 @@ tc-https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-
 hn-49678683
 robot-https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/
 deepmind-https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/
+tc-https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
