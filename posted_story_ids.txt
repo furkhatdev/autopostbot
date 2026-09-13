@@ -9,3 +9,4 @@ googleai-https://blog.google/products-and-platforms/products/search/football-fea
 deepmind-https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/
 hn-49625056
 tc-https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/
+hn-49678683
