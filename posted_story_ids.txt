@@ -11,3 +11,4 @@ hn-49625056
 tc-https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/
 hn-49678683
 robot-https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/
+deepmind-https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/
