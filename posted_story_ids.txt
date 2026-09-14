@@ -14,3 +14,4 @@ robot-https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-po
 deepmind-https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/
 tc-https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
 samsung-https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure
+robot-https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/
