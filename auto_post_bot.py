@@ -148,6 +148,37 @@ def fetch_real_news() -> dict:
     if not pool:
         sys.exit("Xato: mos yangilik topilmadi (barchasi oldin joylangan bo'lishi mumkin).")
 
+    return select_most_important_news(pool)
+
+
+def select_most_important_news(pool: list[dict]) -> dict:
+    """Gemini yordamida tanlov havzasidagi ENG MUHIM, kattaroq yangilikni tanlaydi.
+    Xato bo'lsa yoki Gemini javob bera olmasa, tasodifiy tanlovga qaytadi."""
+    if len(pool) == 1:
+        return pool[0]
+
+    numbered = "\n".join(f"{i + 1}. {item['title']}" for i, item in enumerate(pool))
+    prompt = f"""Quyida bugungi kundagi tech/AI/dasturlash yangiliklari sarlavhalari ro'yxati berilgan:
+
+{numbered}
+
+Vazifa: shulardan ENG MUHIM, ENG KATTA e'tiborga loyiq bittasini tanla.
+Ustuvorlik ber: yirik kompaniyalarning katta e'lonlari (yangi mahsulot,
+katta yangilanish), muhim AI yutuqlari, keng ta'sir qiluvchi voqealar.
+Kichik, tor, texnik jihatdan unchalik muhim bo'lmagan yangiliklarni tanlama.
+
+Javobni FAQAT raqam sifatida qaytar (masalan: "7"), boshqa hech narsa yozma."""
+
+    try:
+        client = genai.Client(api_key=GEMINI_API_KEY)
+        response = client.models.generate_content(model="gemini-3.6-flash", contents=prompt)
+        index = int(response.text.strip()) - 1
+        if 0 <= index < len(pool):
+            print(f"[tanlov] Eng muhim deb tanlangan: {pool[index]['title']}")
+            return pool[index]
+    except Exception as exc:
+        print(f"Ogohlantirish: eng muhim yangilikni tanlab bo'lmadi ({exc}), tasodifiy tanlanmoqda...")
+
     return random.choice(pool)
 
 
