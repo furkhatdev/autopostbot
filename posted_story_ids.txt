@@ -16,3 +16,4 @@ tc-https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-adv
 samsung-https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure
 robot-https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/
 googleai-https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/
+samsung-https://news.samsung.com/global/samsung-electronics-and-asml-expand-strategic-collaboration-for-next-generation-semiconductor-manufacturing
