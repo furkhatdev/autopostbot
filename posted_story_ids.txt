@@ -20,3 +20,4 @@ samsung-https://news.samsung.com/global/samsung-electronics-and-asml-expand-stra
 googleai-https://blog.google/products-and-platforms/products/workspace/google-pics/
 googleai-https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/
 tc-https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/
+macrumors-https://www.macrumors.com/2026/09/14/apple-releases-ios-27/
