@@ -72,15 +72,26 @@ def _fetch_rss_candidates(feed_url: str, source_prefix: str, posted_ids: set[str
     The Robot Report, SpaceX va h.k.) yangiliklarni oladi."""
     import xml.etree.ElementTree as ET
 
+    browser_headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+
     try:
-        response = requests.get(
-            feed_url,
-            timeout=15,
-            headers={"User-Agent": "Mozilla/5.0 (compatible; AITechUzBot/1.0)"},
-        )
-        response.raise_for_status()
+        response = requests.get(feed_url, timeout=15, headers=browser_headers)
+        if response.status_code >= 400:
+            print(f"[manba xatosi] {source_prefix}: HTTP {response.status_code} ({feed_url})")
+            return []
         root = ET.fromstring(response.content)
-    except (requests.RequestException, ET.ParseError):
+    except requests.RequestException as exc:
+        print(f"[manba xatosi] {source_prefix}: tarmoq xatosi — {exc}")
+        return []
+    except ET.ParseError as exc:
+        print(f"[manba xatosi] {source_prefix}: XML formatini o'qib bo'lmadi — {exc}")
         return []
 
     candidates = []
