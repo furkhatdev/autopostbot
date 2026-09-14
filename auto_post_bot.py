@@ -112,12 +112,14 @@ def _fetch_rss_candidates(feed_url: str, source_prefix: str, posted_ids: set[str
 
 
 # Rasmiy va yirik manbalar: (prefiks, RSS havolasi)
+# Eslatma: Apple va SpaceX rasmiy manbalari ishlamagani uchun ular haqida ham
+# yozadigan nufuzli nashrlar (The Verge, MacRumors) bilan almashtirildi.
 OFFICIAL_RSS_SOURCES = [
     ("tc", "https://techcrunch.com/feed/"),                       # TechCrunch — umumiy tech/gadjet
-    ("apple", "https://www.apple.com/newsroom/rss-feed.rss"),     # Apple — rasmiy newsroom
+    ("verge", "https://www.theverge.com/rss/index.xml"),           # The Verge — umumiy tech
+    ("macrumors", "http://feeds.macrumors.com/MacRumors-All"),     # MacRumors — Apple bo'yicha ixtisoslashgan
     ("samsung", "https://news.samsung.com/global/feed"),           # Samsung — rasmiy newsroom
     ("robot", "https://www.therobotreport.com/feed"),              # Robototexnika yangiliklari
-    ("spacex", "https://www.spacex.com/news.xml"),                 # SpaceX (Ilon Musk kompaniyasi)
     ("openai", "https://openai.com/news/rss.xml"),                 # OpenAI — rasmiy
     ("deepmind", "https://deepmind.google/blog/feed/basic/"),      # Google DeepMind — rasmiy
     ("googleai", "https://blog.google/technology/ai/rss/"),        # Google AI Blog — rasmiy
