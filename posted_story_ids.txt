@@ -26,3 +26,4 @@ deepmind-https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-
 deepmind-https://deepmind.google/blog/introducing-agentic-video-in-gemini/
 deepmind-https://deepmind.google/blog/introducing-gemini-3-7-flash/
 hn-49710253
+deepmind-https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/
