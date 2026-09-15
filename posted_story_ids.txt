@@ -23,3 +23,4 @@ tc-https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windo
 macrumors-https://www.macrumors.com/2026/09/14/apple-releases-ios-27/
 deepmind-https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/
 deepmind-https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/
+deepmind-https://deepmind.google/blog/introducing-agentic-video-in-gemini/
