@@ -29,3 +29,4 @@ hn-49710253
 deepmind-https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/
 hn-49715947
 samsung-https://news.samsung.com/global/immaculate-engineering-meets-artistic-imagination-highlights-from-design-miami-seoul-2026
+hn-49719249
