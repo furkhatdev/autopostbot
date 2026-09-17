@@ -31,3 +31,4 @@ hn-49715947
 samsung-https://news.samsung.com/global/immaculate-engineering-meets-artistic-imagination-highlights-from-design-miami-seoul-2026
 hn-49719249
 tc-https://techcrunch.com/2026/09/16/pulley-a-carta-rival-is-shutting-down/
+tc-https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/
