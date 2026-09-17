@@ -36,3 +36,4 @@ hn-49724881
 tc-https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/
 deepmind-https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/
 tc-https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/
+deepmind-https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/
