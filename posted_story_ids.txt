@@ -34,3 +34,4 @@ tc-https://techcrunch.com/2026/09/16/pulley-a-carta-rival-is-shutting-down/
 tc-https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026/
 hn-49724881
 tc-https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/
+deepmind-https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/
