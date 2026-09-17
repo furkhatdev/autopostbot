@@ -30,3 +30,4 @@ deepmind-https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-e
 hn-49715947
 samsung-https://news.samsung.com/global/immaculate-engineering-meets-artistic-imagination-highlights-from-design-miami-seoul-2026
 hn-49719249
+tc-https://techcrunch.com/2026/09/16/pulley-a-carta-rival-is-shutting-down/
