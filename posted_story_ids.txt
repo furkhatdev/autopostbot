@@ -42,3 +42,4 @@ tc-https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-ce
 tc-https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/
 deepmind-https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/
 robot-https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/
+robot-https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/
