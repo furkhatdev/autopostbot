@@ -39,3 +39,4 @@ tc-https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-s
 deepmind-https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/
 deepmind-https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
 tc-https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/
+tc-https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/
