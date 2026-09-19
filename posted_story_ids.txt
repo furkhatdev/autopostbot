@@ -45,3 +45,4 @@ robot-https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-r
 robot-https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/
 tc-https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/
 deepmind-https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
+tc-https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/
