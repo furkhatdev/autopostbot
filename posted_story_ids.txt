@@ -48,3 +48,4 @@ deepmind-https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intell
 tc-https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/
 macrumors-https://www.macrumors.com/2026/09/19/top-stories-ios-27-macos-golden-gate-out-now/
 deepmind-https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
+googleai-https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/
