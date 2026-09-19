@@ -46,3 +46,4 @@ robot-https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-
 tc-https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/
 deepmind-https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
 tc-https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/
+macrumors-https://www.macrumors.com/2026/09/19/top-stories-ios-27-macos-golden-gate-out-now/
