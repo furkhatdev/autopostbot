@@ -53,3 +53,4 @@ deepmind-https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lit
 deepmind-https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
 tc-https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors/
 googleai-https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/
+deepmind-https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
