@@ -56,3 +56,4 @@ googleai-https://blog.google/innovation-and-ai/technology/ai/google-un-data-comm
 deepmind-https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
 hn-49775499
 hn-49778029
+robot-https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/
