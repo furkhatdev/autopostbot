@@ -61,3 +61,4 @@ tc-https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-
 tc-https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/
 hn-49791939
 tc-https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/
+googleai-https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/
