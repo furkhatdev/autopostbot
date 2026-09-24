@@ -66,3 +66,4 @@ tc-https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-
 samsung-https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event
 hn-49820134
 hn-49823664
+hn-49817469
