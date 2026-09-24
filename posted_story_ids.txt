@@ -67,3 +67,4 @@ samsung-https://news.samsung.com/global/samsung-and-verizon-complete-successful-
 hn-49820134
 hn-49823664
 hn-49817469
+googleai-https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/
