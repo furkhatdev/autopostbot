@@ -71,3 +71,4 @@ googleai-https://blog.google/innovation-and-ai/technology/ai/ai-for-every-langua
 macrumors-https://www.macrumors.com/guide/apple-watch-ultra-2-vs-ultra-4/
 macrumors-https://www.macrumors.com/2026/09/24/apple-music-head-trip-livestream/
 deepmind-https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/
+hn-49832938
