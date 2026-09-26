@@ -74,3 +74,4 @@ deepmind-https://deepmind.google/blog/introducing-gemini-38-live-with-live-avata
 hn-49832938
 deepmind-https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/
 hn-49840054
+hn-49849985
