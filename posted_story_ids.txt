@@ -75,3 +75,4 @@ hn-49832938
 deepmind-https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/
 hn-49840054
 hn-49849985
+samsung-https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a1-how-portrait-video-recreates-the-look-of-professional-camera-lenses
