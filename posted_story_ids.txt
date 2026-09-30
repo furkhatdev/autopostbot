@@ -79,3 +79,4 @@ samsung-https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z
 hn-49868202
 tc-https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/
 macrumors-https://www.macrumors.com/2026/09/29/iphone-duo-get-ready-oct-12/
+deepmind-https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/
