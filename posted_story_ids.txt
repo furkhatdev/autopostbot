@@ -83,3 +83,4 @@ deepmind-https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-in
 tc-https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/
 deepmind-https://deepmind.google/blog/introducing-synthid-bio/
 deepmind-https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/
+tc-https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/
