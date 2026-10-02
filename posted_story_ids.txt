@@ -84,3 +84,4 @@ tc-https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-m
 deepmind-https://deepmind.google/blog/introducing-synthid-bio/
 deepmind-https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/
 tc-https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/
+macrumors-https://www.macrumors.com/2026/10/01/apple-smart-home-camera-no-video-recording/
