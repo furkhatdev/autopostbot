@@ -87,3 +87,4 @@ tc-https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-fo
 macrumors-https://www.macrumors.com/2026/10/01/apple-smart-home-camera-no-video-recording/
 hn-49935867
 robot-https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/
+hn-49946895
