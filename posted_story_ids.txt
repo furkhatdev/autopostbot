@@ -89,3 +89,4 @@ hn-49935867
 robot-https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/
 hn-49946895
 googleai-https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/
+tc-https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/
