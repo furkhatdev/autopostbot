@@ -93,3 +93,4 @@ tc-https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-pro
 deepmind-https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
 hn-49980487
 macrumors-https://www.macrumors.com/2026/10/08/16-inch-macbook-pro-massive-discount/
+macrumors-https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro/
