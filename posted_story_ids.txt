@@ -96,3 +96,4 @@ macrumors-https://www.macrumors.com/2026/10/08/16-inch-macbook-pro-massive-disco
 macrumors-https://www.macrumors.com/2026/10/08/apple-october-27-macbook-pro/
 tc-https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/
 hn-50019911
+deepmind-https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
