@@ -106,3 +106,4 @@ tc-https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-nee
 macrumors-https://www.macrumors.com/2026/10/10/apple-to-unveil-all-new-type-of-device/
 deepmind-https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
 deepmind-https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/
+deepmind-https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/
