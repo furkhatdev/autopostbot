@@ -103,3 +103,4 @@ hn-50028275
 tc-https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/
 hn-50035886
 tc-https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/
+macrumors-https://www.macrumors.com/2026/10/10/apple-to-unveil-all-new-type-of-device/
