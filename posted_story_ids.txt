@@ -110,3 +110,4 @@ deepmind-https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-fla
 hn-50047422
 robot-https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/
 tc-https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/
+deepmind-https://deepmind.google/blog/introducing-gemini-4-argon/
