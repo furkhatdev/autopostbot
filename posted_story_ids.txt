@@ -112,3 +112,4 @@ robot-https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its
 tc-https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/
 deepmind-https://deepmind.google/blog/introducing-gemini-4-argon/
 googleai-https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+tc-https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/
