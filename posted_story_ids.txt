@@ -118,3 +118,4 @@ googleai-https://blog.google/innovation-and-ai/technology/ai/winner-future-visio
 deepmind-https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/
 tc-https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/
 deepmind-https://deepmind.google/blog/gemini-4-argon-for-robotics/
+macrumors-https://www.macrumors.com/2026/10/16/app-store-rules-deepfakes/
