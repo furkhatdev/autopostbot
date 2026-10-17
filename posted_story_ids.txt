@@ -126,3 +126,4 @@ hn-50129121
 hn-50129045
 hn-50131256
 tc-https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/
+tc-https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/
