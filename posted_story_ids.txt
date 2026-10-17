@@ -121,3 +121,4 @@ deepmind-https://deepmind.google/blog/gemini-4-argon-for-robotics/
 macrumors-https://www.macrumors.com/2026/10/16/app-store-rules-deepfakes/
 tc-https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/
 tc-https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/
+samsung-https://news.samsung.com/global/samsung-presents-design-is-an-act-of-love-at-seoul-design-week-2026
