@@ -128,3 +128,4 @@ hn-50131256
 tc-https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/
 tc-https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/
 deepmind-https://deepmind.google/blog/on-device-ai-scam-detection-mddi/
+hn-50136536
