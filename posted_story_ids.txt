@@ -134,3 +134,4 @@ deepmind-https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-
 tc-https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/
 googleai-https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/
 tc-https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/
+tc-https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/
