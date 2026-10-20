@@ -139,3 +139,4 @@ tc-https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talk
 hn-50154244
 deepmind-https://deepmind.google/blog/our-approach-to-bioresilience/
 hn-50163277
+hn-50170021
