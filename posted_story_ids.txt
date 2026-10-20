@@ -138,3 +138,4 @@ tc-https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia
 tc-https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/
 hn-50154244
 deepmind-https://deepmind.google/blog/our-approach-to-bioresilience/
+hn-50163277
