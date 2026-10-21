@@ -141,3 +141,4 @@ deepmind-https://deepmind.google/blog/our-approach-to-bioresilience/
 hn-50163277
 hn-50170021
 tc-https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/
+robot-https://www.therobotreport.com/a-guide-to-day-1-of-robobusiness-2026/
