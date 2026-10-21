@@ -145,3 +145,4 @@ robot-https://www.therobotreport.com/a-guide-to-day-1-of-robobusiness-2026/
 tc-https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/
 hn-50177916
 hn-50180836
+robot-https://www.therobotreport.com/a-guide-to-day-2-of-robobusiness-2026/
