@@ -147,3 +147,4 @@ hn-50177916
 hn-50180836
 robot-https://www.therobotreport.com/a-guide-to-day-2-of-robobusiness-2026/
 samsung-https://news.samsung.com/global/tailored-for-every-home-samsung-the-brief-goes-global-with-ai-powered-home-appliances
+tc-https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/
