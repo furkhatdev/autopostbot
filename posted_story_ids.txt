@@ -149,3 +149,4 @@ robot-https://www.therobotreport.com/a-guide-to-day-2-of-robobusiness-2026/
 samsung-https://news.samsung.com/global/tailored-for-every-home-samsung-the-brief-goes-global-with-ai-powered-home-appliances
 tc-https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/
 tc-https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/
+tc-https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
