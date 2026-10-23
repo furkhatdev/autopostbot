@@ -153,3 +153,4 @@ tc-https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-va
 macrumors-https://www.macrumors.com/2026/10/22/iphone-duo-australia-launch/
 tc-https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/
 samsung-https://news.samsung.com/global/discover-new-ways-to-live-smarter-samsung-electronics-launches-samsung-week-2026-in-63-countries
+deepmind-https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
