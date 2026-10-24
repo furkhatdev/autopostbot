@@ -155,3 +155,4 @@ tc-https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests
 samsung-https://news.samsung.com/global/discover-new-ways-to-live-smarter-samsung-electronics-launches-samsung-week-2026-in-63-countries
 deepmind-https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
 tc-https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
+hn-50218195
