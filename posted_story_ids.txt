@@ -156,3 +156,4 @@ samsung-https://news.samsung.com/global/discover-new-ways-to-live-smarter-samsun
 deepmind-https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
 tc-https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
 hn-50218195
+samsung-https://news.samsung.com/global/photo-inside-samsungs-design-is-an-act-of-love-exhibition-at-seoul-design-week-2026
