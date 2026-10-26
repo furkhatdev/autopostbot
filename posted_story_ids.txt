@@ -160,3 +160,4 @@ samsung-https://news.samsung.com/global/photo-inside-samsungs-design-is-an-act-o
 robot-https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/
 hn-50234474
 hn-50245524
+openai-https://openai.com/index/introducing-gpt-6-1-terra
