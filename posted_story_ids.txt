@@ -163,3 +163,4 @@ hn-50245524
 openai-https://openai.com/index/introducing-gpt-6-1-terra
 tc-https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/
 hn-50251661
+macrumors-https://www.macrumors.com/2026/10/26/siri-remote-find-my-ios-27-2/
