@@ -164,3 +164,4 @@ openai-https://openai.com/index/introducing-gpt-6-1-terra
 tc-https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/
 hn-50251661
 macrumors-https://www.macrumors.com/2026/10/26/siri-remote-find-my-ios-27-2/
+deepmind-https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
