@@ -171,3 +171,4 @@ googleai-https://blog.google/products-and-platforms/products/education/ai-quests
 macrumors-https://www.macrumors.com/2026/10/28/apple-open-pre-orders-five-new-products-today/
 samsung-https://news.samsung.com/global/samsung-ranks-no-5-in-interbrands-best-global-brands-2026-for-seventh-consecutive-year
 deepmind-https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/
+tc-https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/
