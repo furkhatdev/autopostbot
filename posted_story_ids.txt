@@ -174,3 +174,4 @@ deepmind-https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/
 tc-https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/
 hn-50282454
 deepmind-https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/
+hn-50293023
