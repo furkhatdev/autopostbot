@@ -178,3 +178,4 @@ hn-50293023
 hn-50289418
 hn-50296470
 hn-50300853
+deepmind-https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/
