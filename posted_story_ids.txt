@@ -179,3 +179,4 @@ hn-50289418
 hn-50296470
 hn-50300853
 deepmind-https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/
+tc-https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/
