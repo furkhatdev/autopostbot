@@ -185,3 +185,4 @@ deepmind-https://deepmind.google/blog/fluid-natural-voice-translation-with-gemin
 deepmind-https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/
 macrumors-https://www.macrumors.com/2026/10/31/top-stories-apple-macbook-pro-ipad-mini-imac-updates/
 hn-50318871
+tc-https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/
