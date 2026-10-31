@@ -183,3 +183,4 @@ tc-https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-re
 deepmind-https://deepmind.google/blog/accelerating-antimicrobial-discovery/
 deepmind-https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/
 deepmind-https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/
+macrumors-https://www.macrumors.com/2026/10/31/top-stories-apple-macbook-pro-ipad-mini-imac-updates/
