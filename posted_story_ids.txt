@@ -187,3 +187,4 @@ macrumors-https://www.macrumors.com/2026/10/31/top-stories-apple-macbook-pro-ipa
 hn-50318871
 tc-https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/
 hn-50319143
+tc-https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/
