@@ -192,3 +192,4 @@ tc-https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-b
 robot-https://www.therobotreport.com/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-for-robotics/
 macrumors-https://www.macrumors.com/2026/11/02/apple-launching-five-new-products-this-friday/
 tc-https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/
+macrumors-https://www.macrumors.com/2026/11/02/apple-4q-2026-earnings/
