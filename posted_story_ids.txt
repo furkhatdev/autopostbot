@@ -199,3 +199,4 @@ tc-https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-a
 tc-https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/
 tc-https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/
 hn-50367125
+macrumors-https://www.macrumors.com/2026/11/05/apple-launching-five-new-products-tomorrow/
