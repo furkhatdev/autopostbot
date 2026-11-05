@@ -201,3 +201,4 @@ tc-https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-b
 hn-50367125
 macrumors-https://www.macrumors.com/2026/11/05/apple-launching-five-new-products-tomorrow/
 hn-50349667
+robot-https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/
