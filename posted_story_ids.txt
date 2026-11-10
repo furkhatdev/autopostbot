@@ -206,3 +206,4 @@ tc-https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-b
 hn-50413822
 openai-https://openai.com/index/introducing-gpt-6-cyber
 deepmind-https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/
+hn-50429906
