@@ -209,3 +209,4 @@ deepmind-https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effecti
 hn-50429906
 robot-https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/
 deepmind-https://deepmind.google/blog/gemini-4-carbon-is-now-available/
+openai-https://openai.com/index/introducing-businesses-chatgpt
