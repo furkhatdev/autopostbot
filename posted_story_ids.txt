@@ -210,3 +210,4 @@ hn-50429906
 robot-https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/
 deepmind-https://deepmind.google/blog/gemini-4-carbon-is-now-available/
 openai-https://openai.com/index/introducing-businesses-chatgpt
+googleai-https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
