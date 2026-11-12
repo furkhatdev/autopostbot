@@ -213,3 +213,4 @@ openai-https://openai.com/index/introducing-businesses-chatgpt
 googleai-https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
 deepmind-https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
 deepmind-https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/
+macrumors-https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay/
