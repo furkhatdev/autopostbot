@@ -214,3 +214,4 @@ googleai-https://blog.google/innovation-and-ai/technology/developers-tools/intro
 deepmind-https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
 deepmind-https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/
 macrumors-https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay/
+googleai-https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/
