@@ -216,3 +216,4 @@ deepmind-https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world
 macrumors-https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay/
 googleai-https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/
 hn-50467087
+deepmind-https://deepmind.google/blog/introducing-gemini-4-hydrogen/
