@@ -217,3 +217,4 @@ macrumors-https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay/
 googleai-https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/
 hn-50467087
 deepmind-https://deepmind.google/blog/introducing-gemini-4-hydrogen/
+openai-https://openai.com/index/gilbert-tobin-sam-nickless
