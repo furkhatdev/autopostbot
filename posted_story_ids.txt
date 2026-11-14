@@ -223,3 +223,4 @@ googleai-https://blog.google/products-and-platforms/products/search/gemini-4-hyd
 googleai-https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/
 openai-https://openai.com/index/introducing-chatgpt-wallet
 tc-https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/
+robot-https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/
