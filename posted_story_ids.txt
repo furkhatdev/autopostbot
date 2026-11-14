@@ -220,3 +220,4 @@ deepmind-https://deepmind.google/blog/introducing-gemini-4-hydrogen/
 openai-https://openai.com/index/gilbert-tobin-sam-nickless
 robot-https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/
 googleai-https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/
+googleai-https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/
