@@ -226,3 +226,4 @@ tc-https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-t
 robot-https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/
 macrumors-https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/
 hn-50500963
+robot-https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/
