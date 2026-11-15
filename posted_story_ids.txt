@@ -225,3 +225,4 @@ openai-https://openai.com/index/introducing-chatgpt-wallet
 tc-https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/
 robot-https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/
 macrumors-https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/
+hn-50500963
