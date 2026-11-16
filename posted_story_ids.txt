@@ -229,3 +229,4 @@ hn-50500963
 robot-https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/
 tc-https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/
 samsung-https://news.samsung.com/global/samsung-announces-december-release-for-intelligent-eyewear-bringing-a-smarter-way-to-see-the-world
+googleai-https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
