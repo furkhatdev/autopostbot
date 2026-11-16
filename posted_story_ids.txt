@@ -231,3 +231,4 @@ tc-https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-persona
 samsung-https://news.samsung.com/global/samsung-announces-december-release-for-intelligent-eyewear-bringing-a-smarter-way-to-see-the-world
 googleai-https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
 hn-50513215
+tc-https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/
