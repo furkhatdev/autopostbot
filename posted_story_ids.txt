@@ -237,3 +237,4 @@ openai-https://openai.com/index/introducing-gpt-6-2-astra-sol
 deepmind-https://deepmind.google/blog/introducing-gemini-4-neon/
 hn-50553843
 deepmind-https://deepmind.google/blog/genie-4-is-now-available/
+hn-50562754
