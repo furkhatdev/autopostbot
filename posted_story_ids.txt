@@ -234,3 +234,4 @@ hn-50513215
 tc-https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/
 tc-https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/
 openai-https://openai.com/index/introducing-gpt-6-2-astra-sol
+deepmind-https://deepmind.google/blog/introducing-gemini-4-neon/
