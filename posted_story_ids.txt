@@ -239,3 +239,4 @@ hn-50553843
 deepmind-https://deepmind.google/blog/genie-4-is-now-available/
 hn-50562754
 tc-https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/
+hn-50572503
