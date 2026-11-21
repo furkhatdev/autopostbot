@@ -241,3 +241,4 @@ hn-50562754
 tc-https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/
 hn-50572503
 tc-https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/
+tc-https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/
