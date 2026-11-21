@@ -243,3 +243,4 @@ hn-50572503
 tc-https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/
 tc-https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/
 hn-50587208
+googleai-https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/
