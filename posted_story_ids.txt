@@ -245,3 +245,4 @@ tc-https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-r
 hn-50587208
 googleai-https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/
 hn-50589618
+googleai-https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/
