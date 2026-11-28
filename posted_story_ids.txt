@@ -249,3 +249,4 @@ googleai-https://blog.google/innovation-and-ai/technology/developers-tools/gemin
 hn-50582069
 tc-https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/
 tc-https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/
+tc-https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/
